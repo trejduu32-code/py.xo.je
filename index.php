@@ -1,9 +1,9 @@
 <?php
 /* ================= CONFIG ================= */
 define('DB_FILE', __DIR__ . '/urlshortener.db');
-define('SITE_NAME', 'me.xoje');
+define('SITE_NAME', 'py.xo.je');
 define('SITE_URL', 'https://' . ($_SERVER['HTTP_HOST'] ?? 'localhost'));
-define('LOGO', 'https://trejduu32-code.github.io/xq/me.xo.je.png');
+define('LOGO', 'https://trejduu32-code.github.io/xq/py.png');
 
 /* ================= DATABASE ================= */
 $db = new SQLite3(DB_FILE);
